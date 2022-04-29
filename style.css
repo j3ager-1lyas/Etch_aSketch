@@ -1,0 +1,61 @@
+body,html {
+    height:100%;
+    margin:0px;
+}
+/*setting the page first layout*/
+#head{
+    height:20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#body{
+    height:70%;
+    display: flex;
+    justify-content: stretch;
+    padding: 50px 150px;
+}
+#foot{
+    height:10%;
+}
+/*-setting the body*/
+.eraseT{
+    width: 20%;
+    height:31%;
+    /*positioning-*/
+    margin-bottom: 60%;
+    margin-top:10%;
+    /*-positioning*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.boardpres{
+    width:65%;
+    display: flex;
+    flex-direction: column;
+}
+.colorT{
+    width:15%;
+    height:31%;
+    /*positioning-*/
+    margin-bottom: 65%;
+    margin-top:4%;
+    /*-positioning*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*--setting the Erasing Tool*/
+#sColor{
+    border-radius: 30%;
+    width: 100px;
+    height: 100px;
+}
+#colorToggle{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+}

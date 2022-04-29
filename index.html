@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Etch a Sketch</title>
+        <meta charset="UTF-8" lang="English">
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="javascript.js"></script>
+    </head>
+    <body>
+        <div id="head">
+            <h1>Etch a Sketch</h1>
+        </div>
+        <div id="body">
+            <div class="eraseT">
+                <button id="eraser"></button>
+                <button id="clean"></button>
+            </div>
+            <div class="boardpres">
+                <div id="resolution">
+                    <label for="resoSlider">16X16</label>
+                    <input id="resoSlider" type="range" value="16" min="1" max="100"></div>
+                <div id="board">
+                    <div id="sketchboard"></div>
+                </div>
+            </div>
+            <div class="colorT">
+                <input type="color" id="sColor">
+                <button id="colorToggle">off</button>
+            </div>
+        </div>
+        <div id="foot"></div>
+    </body>
+</html>
