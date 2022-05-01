@@ -2,6 +2,9 @@ body,html {
     height:100%;
     margin:0px;
 }
+*{
+    
+}
 /*setting the page first layout*/
 #head{
     height:20%;
@@ -10,13 +13,13 @@ body,html {
     align-items: center;
 }
 #body{
-    height:70%;
+    height:75%;
     display: flex;
     justify-content: stretch;
-    padding: 50px 150px;
+    padding: 50px 250px;
 }
 #foot{
-    height:10%;
+    height:5%;
 }
 /*-setting the body*/
 .eraseT{
@@ -28,14 +31,41 @@ body,html {
     /*-positioning*/
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    gap:50px;
+    border: 3px;
+    border-color: black;
 }
+    /*--setting the(.eraseT) Erasing Tool*/
+    #eraser,#clean {
+        width:100px;
+        height:50px;
+        border-radius: 10%;
+        text-align: center;
+    }
 .boardpres{
     width:65%;
     display: flex;
     flex-direction: column;
+    border: 3px;
+    border-color: black;
+    padding: 20px;
 }
+    #resolution{
+        height:10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #board{
+        height:90%;
+    }
+    #sketchboard{
+        border:3px;
+        border-style: solid;
+        border-color: black;
+    }
 .colorT{
     width:15%;
     height:31%;
@@ -47,15 +77,20 @@ body,html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: 3px;
+    border-color: black;
 }
-/*--setting the Erasing Tool*/
-#sColor{
-    border-radius: 30%;
-    width: 100px;
-    height: 100px;
-}
-#colorToggle{
-    width:50px;
-    height:50px;
-    border-radius: 50%;
-}
+    /*--setting the(colorT) Coloring Tool*/
+    #sColor{
+        border-radius: 30%;
+        width: 100px;
+        height: 100px;
+    }
+    #colorToggle{
+        width:50px;
+        height:50px;
+        border-radius: 50%;
+    }
+    #verticalpixel{
+        display: flex;
+    }
