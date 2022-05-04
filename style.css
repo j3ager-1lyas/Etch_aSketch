@@ -60,11 +60,12 @@ body,html {
         height:90%;
     }
     #sketchboard{
-        height:100%;
         width:100%;
         border:3px;
         border-style: solid;
         border-color: black;
+        display: flex;
+        flex-wrap:wrap;
     }
 .colorT{
     width:15%;
